@@ -1,0 +1,7 @@
+{
+  "data": [
+    { "CountryID": 1, "CountryName": "USA" },
+    { "CountryID": 2, "CountryName": "Canada" },
+    { "CountryID": 3, "CountryName": "India" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "data": [
+    { "CityID": 1, "CityName": "New York", "CountryID": 1 },
+    { "CityID": 2, "CityName": "Los Angeles", "CountryID": 1 },
+    { "CityID": 3, "CityName": "Toronto", "CountryID": 2 },
+    { "CityID": 4, "CityName": "Vancouver", "CountryID": 2 },
+    { "CityID": 5, "CityName": "Ahmedabad", "CountryID": 3 },
+    { "CityID": 6, "CityName": "Delhi", "CountryID": 3 },
+    { "CityID": 7, "CityName": "Mumbai", "CountryID": 3 }
+  ]
+}

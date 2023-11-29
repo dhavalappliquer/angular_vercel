@@ -20,7 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { Form1Component } from './form1/form1.component';
 
 const ngxUiLoaderConfig: NgxUiLoaderConfig = {
-  bgsColor: 'red',
+  bgsColor: 'blue',
   bgsOpacity: 0.5,
   bgsPosition: POSITION.centerCenter,
   bgsSize: 60,
@@ -28,7 +28,7 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
   blur: 5,
   delay: 0,
   fastFadeOut: true,
-  fgsColor: 'red',
+  fgsColor: 'blue',
   fgsPosition: POSITION.centerCenter,
   fgsSize: 60,
   fgsType: SPINNER.ballSpinClockwise,
@@ -38,7 +38,7 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
   logoUrl: '',
   masterLoaderId: 'master',
   overlayBorderRadius: '0',
-  overlayColor: 'rgba(40, 40, 40, 0.8)',
+  overlayColor: 'rgba(164,159,159,0.4)',
   pbColor: 'red',
   pbDirection: PB_DIRECTION.leftToRight,
   pbThickness: 3,

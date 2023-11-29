@@ -68,7 +68,7 @@
   <div class="mb-3">
     <label for="country" class="form-label">Country</label>
     <select class="form-control" id="country" formControlName="country">
-      <option [value]="null" selected>Select Country</option>
+      <option [value]="null" disabled selected>Select Country</option>
       <option *ngFor="let country of countries" [value]="country.CountryID">
         {{ country.CountryName }}
       </option>
@@ -257,7 +257,7 @@
   Selected Skills: <code>{{ loginForm.get("skills")?.value | json }}</code>
 </div>
 <div>
-  USER ERROR : <code>{{ loginForm.controls["username"]?.errors | json }}</code>
+  USER ERROR : <code>{{ loginForm.controls["username"].errors! | json }}</code>
   <br />
   PASSWORD ERROR : <code>{{ loginForm.get("password")?.errors | json }}</code>
   <br />

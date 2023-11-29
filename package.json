@@ -3,7 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve -o --hmr --live-reload",
+    "prestart": "npm cache clean --force",
+    "prestart:open": "npm cache clean --force",
+    "prebuild": "npm cache clean --force",
+    "prewatch": "npm cache clean --force",
+    "start": "ng serve --hmr --live-reload --port 4200",
+    "start:open": "ng serve --hmr --live-reload --port 4200 -o",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"

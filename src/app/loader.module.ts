@@ -34,7 +34,7 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
   pbThickness: 3,
   hasProgressBar: false,
   text: 'Loading....',
-  textColor: '#FFFFFF',
+  textColor: 'blue',
   textPosition: POSITION.centerCenter,
   maxTime: -1,
   minTime: 300,
